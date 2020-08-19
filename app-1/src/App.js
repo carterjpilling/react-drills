@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import logo from "./logo.svg";
-import './App.css';
-
+import logo from "./logo.svg"
+import "./App.css"
 
 class App extends Component {
   constructor() {
@@ -11,7 +10,6 @@ class App extends Component {
       message: ''
     }
   }
-
   handleChange(value) {
     this.setState({ message: value })
   }
